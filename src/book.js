@@ -1,6 +1,6 @@
 export const Book = ( props ) =>{ 
-    const {image, title, author, children, getBook, id} = props
-    console.log(props);
+    const {image, title, author, children, getBook, id,index} = props
+    console.log(index);
     const getSingleBook = () =>{
         getBook(id)
     }
@@ -9,6 +9,7 @@ export const Book = ( props ) =>{
        <h2>{title}</h2>
        <button onClick={getSingleBook}>Click Me</button>
        <h4>{author}</h4>
+       <span className="span">{`#${index + 1}`}</span>
            {children}
     </article>
     }

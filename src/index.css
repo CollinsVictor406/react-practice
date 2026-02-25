@@ -23,6 +23,7 @@ body{
     padding: 2rem ;
     border-radius: 1rem;
    text-align: center;
+   position: relative;
 }
 .book img{
     width: 100%;
@@ -42,4 +43,18 @@ body{
     font-size: 1.25rem;
     margin-top: 1rem ;
 }
- 
+
+.span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #e10505;
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+h1{
+    text-align: center;
+    margin-top: 1rem;
+}

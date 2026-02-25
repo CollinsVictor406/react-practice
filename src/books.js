@@ -1,18 +1,22 @@
+import img from '../src/images/book1.webp'
+import img2 from '../src/images/image2.webp'
+import img3 from '../src/images/image3.webp'
+
 export const books = [ 
     {
     title: 'The Story of My Life',
     author: 'Collins Victor',
-    image: 'https://m.media-amazon.com/images/I/81niTZGXxXL._AC_UL480_FMwebp_QL65_.jpg',
+    image: img,
     id:1
 },
  {
     title: 'Lost',
     author: 'Ehis Victor',
-    image: 'https://m.media-amazon.com/images/I/81AnqpwwO1L._AC_UL480_FMwebp_QL65_.jpg',
+    image: img2,
     id:2,
 },    {
     title: 'The Girl Behind the Gates: The gripping, heartbreaking historical bestseller based on a true',
     author: 'Daniel Victor',
-    image: 'https://m.media-amazon.com/images/I/91jNTrkt6cL._AC_UL480_FMwebp_QL65_.jpg',
+    image: img3,
     id:3
 }]
